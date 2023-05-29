@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: lc 13051052765@163.com, lc, LIC=GMZI6-D0KAE-Y86FK-ZQ27A-HWEZK-EY2BJ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.33.0.0
+Toolchain Path:  C:\keil_533\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+D:\work\GitLab\BUFEI\单片机\GD32\MDK-ARM\WEIGH.uvprojx
+Project File Date:  01/09/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\keil_533\ARM\ARMCC\Bin'
+Build target 'WEIGH'
+compiling serial.c...
+..\Hardware\src\serial.c(25): warning:  #550-D: variable "SerialReCase"  was set but never used
+  static uint8_t SerialReCase = 0;//串口接收数据状态机
+..\Hardware\src\serial.c: 1 warning, 0 errors
+linking...
+Program Size: Code=45588 RO-data=932 RW-data=640 ZI-data=12936  
+FromELF: creating hex file...
+After Build - User command #1: fromelf.exe --bin --output ./bin/bufei_app.bin ./weigh_obj/weigh_dev.axf
+After Build - User command #2: .\bin\mcu_tools.exe  ./../Inc/board_info.h  bufei_app.bin
+==================================================================================
+* 工 具 名： mcu_tools.exe (mei can update tools)                                 
+* 参    数： mcu_tools.exe 配置文件 固件路径。                                    
+* 功能描述:  bin文件转化为升级包工具。                                            
+* 备    注： 此工具只适用于美餐自定义升级,只识别固定格式的配置文件。              
+* 工具版本:  V0.0.02                                                              
+* 作    者： xiaozh                                                               
+* 创建时间： 2021-01-05 060606                                                    
+================================================================================== 
+配 置 文 件：	./../Inc/board_info.h
+固 件 路 径：	bufei_app.bin
+软 件 版 本：	03
+机器种类码：	05
+板 卡 类 型：	02
+开始进行格式转化，请稍等...
+转化完成
+*************************************固件信息*************************************
+升级包名：bufei_app_03.mcu
+升级大小：49608字节
+升级包路径：D:\work\GitLab\BUFEI\单片机\GD32\MDK-ARM\bin\bufei_app_03.mcu
+***************************************结束***************************************
+".\weigh_obj\weigh_dev.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: GigaDevice
+                http://www.keil.com/pack/GigaDevice.GD32F10x_DFP.2.0.1.pack
+                GigaDevice.GD32F10x_DFP.2.0.1
+                GigaDevice GD32F10x Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_WEIGH
+  C:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
