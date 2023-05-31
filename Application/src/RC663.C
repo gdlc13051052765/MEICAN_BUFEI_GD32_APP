@@ -385,6 +385,7 @@ s8 RC663_PcdConfigISOType(u8 type)
 										 
 		RC663_WriteReg(rRegRxBitCtrl,0x80);	//Received bit after collision are replaced with 1.
 		RC663_WriteReg(rRegDrvMod,0x89);	//Tx2Inv=1 0x80
+		//RC663_WriteReg(rRegTxAmp,0x40);	//0	//0x04
 		RC663_WriteReg(rRegTxAmp,0x10);	//0	//0x04
 		RC663_WriteReg(rRegDrvCon,0x09);	//0x01
 		RC663_WriteReg(rRegTxl,0x0A);	//0x05
@@ -1170,7 +1171,6 @@ s8 RC663_PcdInventoryV(u8 *pUID)
 	ComData.Length  = 3;
 	ComData.Data[0] = 0x26;	//flags
 	ComData.Data[1] = 0x01;	//invetory
-	//ComData.Data[2] = 0;	//afi
 	ComData.Data[2] = 0;	//masklen
 	status = RC663_PcdComTransceive(pi);
 	if (status == MI_OK)
@@ -1495,14 +1495,14 @@ _Tag_Info rc663_read_card_block(void)
 //		for(i=0;i<8;i++)
 //			debug_print(" %02X",uid[i]);
 //		debug_print("\n");
-		
+		pTag.toal_num = 1;//卡片个数
 		memcpy(pTag.uid, uid, TAG_UID_LENS);
 		if(pTag.tag_state == NULL_STA)
 		{
 			LED_1;//打开指示灯
 			pTag.tag_state = EXIST_STA;//有标签存在
 			debug_print("寻到卡 uid = ");
-			for(i=0;i<8;i++)
+			for(i=0;i<TAG_UID_LENS;i++)
 				debug_print(" %02X",uid[i]);
 			debug_print("\n");
 		}
@@ -1527,9 +1527,12 @@ _Tag_Info rc663_read_card_block(void)
 				pTag.tag_state = NULL_STA;//无标签
 				memcpy(pTag.uid, "\x00\x00\x00\x00\x00\x00\x00\x00", TAG_UID_LENS);
 				debug_print("卡片移开 \r\n");
+				
+				pTag.toal_num = 0;//卡片个数
 			}
 		} else {
 			pTag.tag_state = NULL_STA;//无标签
+			pTag.toal_num = 0;//卡片个数
 		}
 		return pTag;
 	}
@@ -1558,6 +1561,7 @@ _Tag_Info rc663_read_card_block(void)
 			for(i=0;i<len;i++)
 				debug_print(" %02X",dat[i]);
 			debug_print("\n");
+			pTag.meican_code = dat[0];//美餐标识
 			if(dat[0] != MEICAN_CODE)
 			{
 				if(pTag.tag_state == EXIST_STA)

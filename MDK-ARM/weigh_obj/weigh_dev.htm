@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\weigh_obj\weigh_dev.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\weigh_obj\weigh_dev.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Mon May 29 16:20:09 2023
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Wed May 31 10:45:47 2023
 <BR><P>
 <H3>Maximum Stack Usage =        480 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -852,8 +852,8 @@ Global Symbols
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 
-<P><STRONG><a name="[f9]"></a>rc663_read_card_block</STRONG> (Thumb, 328 bytes, Stack size 64 bytes, rc663.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = rc663_read_card_block &rArr; RC663_ReadSingleBlockV &rArr; RC663_PcdComTransceive &rArr; RC663_SetBitMask &rArr; RC663_WriteReg
+<P><STRONG><a name="[f9]"></a>rc663_read_card_block</STRONG> (Thumb, 338 bytes, Stack size 72 bytes, rc663.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = rc663_read_card_block &rArr; RC663_ReadSingleBlockV &rArr; RC663_PcdComTransceive &rArr; RC663_SetBitMask &rArr; RC663_WriteReg
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RC663_ReadSingleBlockV
@@ -883,7 +883,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[6]"></a>read_card_task</STRONG> (Thumb, 24 bytes, Stack size 32 bytes, nfc_interface.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = read_card_task &rArr; rc663_read_card_block &rArr; RC663_ReadSingleBlockV &rArr; RC663_PcdComTransceive &rArr; RC663_SetBitMask &rArr; RC663_WriteReg
+<BR><BR>[Stack]<UL><LI>Max Depth = 248<LI>Call Chain = read_card_task &rArr; rc663_read_card_block &rArr; RC663_ReadSingleBlockV &rArr; RC663_PcdComTransceive &rArr; RC663_SetBitMask &rArr; RC663_WriteReg
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rc663_read_card_block
 <LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
@@ -3234,7 +3234,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pt113_frame_parse
 </UL>
 
-<P><STRONG><a name="[c0]"></a>pt113_frame_parse</STRONG> (Thumb, 404 bytes, Stack size 128 bytes, command.o(.text))
+<P><STRONG><a name="[c0]"></a>pt113_frame_parse</STRONG> (Thumb, 388 bytes, Stack size 128 bytes, command.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = pt113_frame_parse &rArr; iap_simply_ack &rArr; HAL_T113_Uart_Send_Data &rArr; HAL_USART_Send_Data &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print_hex

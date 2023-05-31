@@ -50,7 +50,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -93,7 +93,7 @@ I (..\Hardware\inc\bsp_GeneralTIM.h)(0x60B33FA9)
 I (..\Application\inc\RC663.h)(0x63BB843A)
 I (C:\keil_533\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (C:\keil_533\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (C:\keil_533\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (..\Switch\hwioconfig.h)(0x63BB8FDE)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
@@ -184,7 +184,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -245,7 +245,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -253,8 +253,8 @@ I (..\Application\inc\application.h)(0x63A96CB4)
 I (../Inc/board_info.h)(0x63E1C149)
 I (..\iap_boot\inc\st_flash.h)(0x601A1EFA)
 I (..\iap_boot\inc\iap_struct.h)(0x601A1EFA)
-F (..\Application\src\command.c)(0x64745FE6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\command.o --omf_browse .\weigh_obj\command.crf --depend .\weigh_obj\command.d)
-I (..\Application\inc\command.h)(0x64745FF5)
+F (..\Application\src\command.c)(0x6476B30B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\command.o --omf_browse .\weigh_obj\command.crf --depend .\weigh_obj\command.d)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (C:\keil_533\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\includes.h)(0x60CF2CAC)
@@ -311,7 +311,7 @@ I (..\Application\inc\interface.h)(0x601CDC25)
 I (..\Application\inc\application.h)(0x63A96CB4)
 I (../Inc/board_info.h)(0x63E1C149)
 I (..\event_manage\inc\pT113_fifo.h)(0x638DE21C)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (..\Application\inc\RC663.h)(0x63BB843A)
 I (..\Switch\hwioconfig.h)(0x63BB8FDE)
 I (..\iap_boot\inc\iap_protocols.h)(0x6385DCB7)
@@ -319,12 +319,12 @@ I (..\iap_boot\inc\ex_flash.h)(0x6385AB58)
 I (..\iap_boot\inc\iap_struct.h)(0x601A1EFA)
 I (..\iap_boot\inc\st_flash.h)(0x601A1EFA)
 I (..\iap_boot\inc\frame_parse.h)(0x601A1EFA)
-F (..\Application\src\RC663.C)(0x63BB8E44)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\rc663.o --omf_browse .\weigh_obj\rc663.crf --depend .\weigh_obj\rc663.d)
+F (..\Application\src\RC663.C)(0x6476B4AF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\rc663.o --omf_browse .\weigh_obj\rc663.crf --depend .\weigh_obj\rc663.d)
 I (..\Application\inc\RC663.h)(0x63BB843A)
 I (C:\keil_533\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (C:\keil_533\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
 I (C:\keil_533\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (C:\keil_533\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (..\Switch\hwioconfig.h)(0x63BB8FDE)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
@@ -374,14 +374,14 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
 I (..\Application\inc\interface.h)(0x601CDC25)
 I (..\Application\inc\application.h)(0x63A96CB4)
 I (../Inc/board_info.h)(0x63E1C149)
 I (..\Hardware\inc\delay.h)(0x62EB356E)
-F (..\Application\src\nfc_interface.c)(0x63BB8497)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\nfc_interface.o --omf_browse .\weigh_obj\nfc_interface.crf --depend .\weigh_obj\nfc_interface.d)
+F (..\Application\src\nfc_interface.c)(0x6475AD8F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\nfc_interface.o --omf_browse .\weigh_obj\nfc_interface.crf --depend .\weigh_obj\nfc_interface.d)
 I (C:\keil_533\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (C:\keil_533\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
 I (..\Application\inc\FM176XX_REG.h)(0x61C42755)
@@ -416,7 +416,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x601A1EF2)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x601A1EF2)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x601A1EF2)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x601A1EF2)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (C:\keil_533\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (..\Application\inc\FM176XX.h)(0x62EB40E1)
 I (..\Switch\hwioconfig.h)(0x63BB8FDE)
@@ -442,7 +442,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
 I (..\Application\inc\interface.h)(0x601CDC25)
@@ -500,7 +500,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -509,7 +509,7 @@ I (..\Application\inc\application.h)(0x63A96CB4)
 I (../Inc/board_info.h)(0x63E1C149)
 I (..\Application\inc\FM176XX_REG.h)(0x61C42755)
 I (..\Application\inc\FM176XX.h)(0x62EB40E1)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (..\Switch\hwioconfig.h)(0x63BB8FDE)
 I (..\Application\inc\stm32f10x_type.h)(0x63BB831C)
 I (..\Application\inc\define.h)(0x62EA4AC8)
@@ -520,7 +520,7 @@ I (..\Application\inc\FM176XX.h)(0x62EB40E1)
 I (C:\keil_533\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (C:\keil_533\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
 I (C:\keil_533\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (C:\keil_533\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (..\Switch\hwioconfig.h)(0x63BB8FDE)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
@@ -557,7 +557,7 @@ I (..\Application\inc\Reader_API.h)(0x6311CFE1)
 I (..\Application\inc\FM176XX_REG.h)(0x61C42755)
 I (..\Application\inc\define.h)(0x62EA4AC8)
 I (..\Hardware\inc\delay.h)(0x62EB356E)
-F (..\Application\src\READER_API.c)(0x63BB801A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\reader_api.o --omf_browse .\weigh_obj\reader_api.crf --depend .\weigh_obj\reader_api.d)
+F (..\Application\src\READER_API.c)(0x6475AD8F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\reader_api.o --omf_browse .\weigh_obj\reader_api.crf --depend .\weigh_obj\reader_api.d)
 I (C:\keil_533\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
 I (..\Application\inc\FM176XX_REG.h)(0x61C42755)
 I (..\Application\inc\READER_API.h)(0x6311CFE1)
@@ -591,7 +591,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h)(0x601A1EF2)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x601A1EF2)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x601A1EF2)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x601A1EF2)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (C:\keil_533\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (..\Application\inc\FM176XX.h)(0x62EB40E1)
 I (C:\keil_533\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
@@ -652,7 +652,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -754,12 +754,12 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x601A1EF2)
 F (..\event_manage\src\mini_dispatch.c)(0x63E9ECEE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\mini_dispatch.o --omf_browse .\weigh_obj\mini_dispatch.crf --depend .\weigh_obj\mini_dispatch.d)
 I (..\event_manage\inc\mini_dispatch.h)(0x63E9EC93)
 I (C:\keil_533\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\RC663.h)(0x63BB843A)
 I (C:\keil_533\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (C:\keil_533\ARM\ARMCC\include\string.h)(0x5E8E2EB2)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (C:\keil_533\ARM\ARMCC\include\stdbool.h)(0x5E8E2EB2)
 I (..\Switch\hwioconfig.h)(0x63BB8FDE)
 F (..\event_manage\src\uart_debug.c)(0x63BB8EF2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Application\inc -I ..\event_manage\inc -I ..\Hardware\inc -I ..\iap_boot\inc -I ..\uart_debug\inc -I ..\Switch -I ..\Hardware\Ethernet\W5500 --C99-I.\RTE\_WEIGH-IC:\Users\13051\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\13051\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.1\Device\Include-D__UVISION_VERSION="533" -D_RTE_ -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE -DUSE_HAL_DRIVER-o .\weigh_obj\uart_debug.o --omf_browse .\weigh_obj\uart_debug.crf --depend .\weigh_obj\uart_debug.d)
@@ -812,7 +812,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -951,7 +951,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -959,7 +959,7 @@ I (..\Application\inc\interface.h)(0x601CDC25)
 I (..\Hardware\inc\myiic.h)(0x62DE3E4E)
 I (..\Switch\hwioconfig.h)(0x63BB8FDE)
 I (..\Application\inc\RC663.h)(0x63BB843A)
-I (..\Application\inc\nfc_interface.h)(0x63BB8497)
+I (..\Application\inc\nfc_interface.h)(0x6476B4D8)
 I (..\Hardware\inc\gd25q_driver.h)(0x6385AD1B)
 I (..\iap_boot\inc\ex_flash.h)(0x6385AB58)
 I (..\iap_boot\inc\iap_struct.h)(0x601A1EFA)
@@ -1014,7 +1014,7 @@ I (..\Hardware\inc\load_gpio.h)(0x601A1EF8)
 I (..\Hardware\inc\spi_class.h)(0x601A1EF8)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -1073,7 +1073,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -1196,7 +1196,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)
@@ -1879,7 +1879,7 @@ I (..\event_manage\inc\def_fifo.h)(0x601A1EFA)
 I (C:\keil_533\ARM\ARMCC\include\stdlib.h)(0x5E8E2EB2)
 I (..\event_manage\inc\crc.h)(0x62A15D35)
 I (..\Application\inc\config_can.h)(0x601A1EC4)
-I (..\Application\inc\command.h)(0x64745FF5)
+I (..\Application\inc\command.h)(0x6475AD8F)
 I (..\Switch\SwitchConfig.h)(0x63E9B1A9)
 I (..\Application\inc\comm_udp.h)(0x6387174D)
 I (..\event_manage\inc\p485_fifo.h)(0x6385B256)

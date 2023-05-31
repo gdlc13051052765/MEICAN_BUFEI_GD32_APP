@@ -27,12 +27,17 @@ Project File Date:  01/09/2023
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\keil_533\ARM\ARMCC\Bin'
 Build target 'WEIGH'
-compiling serial.c...
-..\Hardware\src\serial.c(25): warning:  #550-D: variable "SerialReCase"  was set but never used
-  static uint8_t SerialReCase = 0;//串口接收数据状态机
-..\Hardware\src\serial.c: 1 warning, 0 errors
+compiling mini_dispatch.c...
+compiling stm32f1xx_it.c...
+compiling MIFARE.c...
+compiling bsp_init.c...
+compiling command.c...
+compiling READER_API.c...
+compiling nfc_interface.c...
+compiling FM176XX.c...
+compiling RC663.C...
 linking...
-Program Size: Code=45588 RO-data=932 RW-data=640 ZI-data=12936  
+Program Size: Code=45584 RO-data=932 RW-data=640 ZI-data=12936  
 FromELF: creating hex file...
 After Build - User command #1: fromelf.exe --bin --output ./bin/bufei_app.bin ./weigh_obj/weigh_dev.axf
 After Build - User command #2: .\bin\mcu_tools.exe  ./../Inc/board_info.h  bufei_app.bin
@@ -57,7 +62,7 @@ After Build - User command #2: .\bin\mcu_tools.exe  ./../Inc/board_info.h  bufei
 升级大小：49608字节
 升级包路径：D:\work\GitLab\BUFEI\单片机\GD32\MDK-ARM\bin\bufei_app_03.mcu
 ***************************************结束***************************************
-".\weigh_obj\weigh_dev.axf" - 0 Error(s), 1 Warning(s).
+".\weigh_obj\weigh_dev.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -80,7 +85,7 @@ Package Vendor: GigaDevice
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.4.0
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

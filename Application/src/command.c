@@ -497,15 +497,9 @@ static void pt113_frame_parse(void* ret_msg)
 			debug_print("读取重量命令。。。。\r\n");	
 			//获取标签信息
 			p_Tag = get_card_tag_msg();
-			if(p_Tag.tag_state == NULL_STA)
-				buffer[send_len++] = 0;//无标签
-			else if(p_Tag.tag_state == ERR_CARD_STA)
-				buffer[send_len++] = 1;//非美餐卡
-			else if(p_Tag.tag_state == ENTRY_BLOCK_OK_STA)
-				buffer[send_len++] = 2;//正常卡
-			else 
-				buffer[send_len++] = 0;//无标签
-			memcpy(buffer+send_len, p_Tag.uid, 8);
+			buffer[send_len++] = p_Tag.toal_num;//卡片个数
+			buffer[send_len++] = p_Tag.meican_code;//美餐标识
+			memcpy(buffer+send_len, p_Tag.uid, 8);//卡片uid
 			send_len += 8;
 			//绝对重量
 			debug_print("净重 = %d \r\n",myUuidWeighSt.weigh);

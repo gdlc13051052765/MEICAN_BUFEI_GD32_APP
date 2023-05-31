@@ -58,8 +58,8 @@ typedef union
 typedef struct
 {
 	//读卡参数
-	uint8_t is_use;			//是否为有效标签
-	uint8_t try_time;		//尝试次数，如果超过最大次数则认为标签离开
+	uint8_t toal_num;			//卡片数量
+	uint8_t meican_code;		//美餐标识
 	_Tag_State tag_state;				//标签是否已经存在    EXIT_STA-->EXIT_STA-->NULL_STA  标签离开(连续状态循环)    
 
 	//更新
